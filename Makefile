@@ -27,7 +27,7 @@ define Package/qbittorrent
   URL:=https://github.com/qbittorrent/qBittorrent
   DEPENDS:=+libtorrent-rasterbar +libQt6Core +libQt6Network +libQt6Sql \
     +libQt6Xml +qt6-plugin-libqopensslbackend +qt6-plugin-libqsqlite
-  PROVIDES:=qbittorrent
+  PROVIDES:=qBittorrent
 endef
 
 define Package/qbittorrent/description
